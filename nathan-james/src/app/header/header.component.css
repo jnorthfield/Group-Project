@@ -1,0 +1,24 @@
+/* Responsive Header Image */
+
+.container-fluid.header {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.img-fluid {
+	object-fit: cover;
+	height: 30vh;
+	min-width: 100%;
+}
+
+/* Responsive Name on Image */
+
+.name {
+	position: absolute;
+	bottom: 1vh;
+	right: 5vw;
+	color: #FFF;
+	font-family: "Permanent Marker", "Open Sans", sans-serif;
+	font-size: 5vw;
+}

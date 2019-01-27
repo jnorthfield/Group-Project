@@ -1,0 +1,23 @@
+<div class="comment-box" *ngFor="let comment of comments; index as i">
+  <div class="comment-header">
+    <div class="commentor" [class.is-nathan]="comment.isNathan">{{comment.name}}</div>
+    <div (click)="toggleLove(i)"><fa class="favorite" [class.loved]="comment.loved" name="heart"></fa></div>
+  </div>
+  <div>
+    {{comment.content}}
+  </div>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="input-group mb-3">
+        <input type="text" class="subscribe-input form-control" placeholder="Name" aria-label="Name" aria-describedby="Name Input" [(ngModel)]="name">
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="input-group mb-3">
+      <input type="text" class="subscribe-input form-control" placeholder="Comment" aria-label="Comment" aria-describedby="Comment" [(ngModel)]="comment">
+    </div></div>
+    <div class="col-xs-12 col-md-12 col-lg-4">
+      <p class="subscribe-button" (click)="postComment()">Comment</p>
+    </div>
+  </div>

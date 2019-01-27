@@ -1,0 +1,49 @@
+<div class="container-fluid foooter-container">
+  <div class="container sunscibe-container">
+      <div class="alert alert-success" role="alert" *ngIf="showSuccessMessage">
+          <span class="success-message"><span class="success-message-callout">{{name}}!</span> We have subscribed you at {{email}}.</span>
+        </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="input-group mb-3">
+        <input type="text" class="subscribe-input form-control" placeholder="Name" aria-label="Name" aria-describedby="Name Input" [(ngModel)]="name">
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-4">
+      <div class="input-group mb-3">
+      <input type="text" class="subscribe-input form-control" placeholder="Email" aria-label="Email" aria-describedby="Email Address" [(ngModel)]="email">
+    </div></div>
+    <div class="col-xs-12 col-md-12 col-lg-4">
+      <p class="subscribe-button" (click)="makeToast()">Subscribe!</p>
+    </div>
+  </div>
+</div>
+<div class="container social-media-container">
+  <div class="row">
+    <div class="col-3 col-md-1 soc">
+        <a href="https://www.facebook.com"><fa name="facebook-square" class="social-icon"></fa></a>
+    </div>
+    <div class="col-3 col-md-1 soc">
+        <a href="https://www.instagram.com"><fa name="instagram" class="social-icon"></fa></a>
+    </div>
+    <div class="col-3 col-md-1 soc">
+        <a href="https://www.twitter.com"><fa name="twitter" class="social-icon"></fa></a>
+    </div>
+    <div class="col-3 col-md-1 soc">
+        <a href="https://www.blogger.com"><fa name="rss" class="social-icon"></fa></a>
+    </div>
+    <div class="col-4 col-md-1 soc">
+        <a href="https://www.starwars.com"><fa name="first-order" class="social-icon"></fa></a>
+    </div>
+    <div class="col-4 col-md-1 soc">
+        <a href="https://www.apple.com/itunes/.com"><fa name="apple" class="social-icon"></fa></a>
+    </div>
+    <div class="col-4 col-md-1 soc">
+        <a href="https://www.soundcloud.com"><fa name="soundcloud" class="social-icon"></fa></a>
+    </div>
+  </div>
+  <div class="container-fluid copyright-container">
+      <span class="copyright-info">© 2019 Nathan James</span>
+    </div>
+</div>
+

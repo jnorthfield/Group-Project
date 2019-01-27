@@ -1,0 +1,43 @@
+.title-container {
+    margin: 35px 0px;
+}
+
+.blog-page-header {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: calc(12px + 2.5vw);
+}
+
+.blog-page-sub-header {
+    font-size: calc(12px + 1.5vw);
+    text-align: center;
+}
+
+
+.blog-content {
+    font-family: 'Open Sans', sans-serif;
+    color: #00100B;
+}
+
+.blog-image {
+    display: block;
+    margin: 1.5em auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.comments {
+    width: 100%;
+    max-width: 750px;
+    margin: 0px auto;
+}
+
+.link-color {
+    color: green;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row tour-page-header">
+      <p>Nathan James Show Dates</p>
+    </div>
+    <div *ngFor="let show of shows">
+      <nj-show-entry [show]="show">
+
+      </nj-show-entry>
+      <hr >
+    </div>
+  </div>

@@ -1,0 +1,13 @@
+<div class="row">
+  <span class="col-2 show-date">{{show.date}}</span>
+  <span class="col-4 show-name">{{show.name}}</span>
+  <span class="col-2 show-location">{{show.location}}</span>
+  <span class="col-2 button-container">
+    <!--The visibility of these spans is controlled via a media query -->
+    <span class="show-tickets" [class.tickets-not-available]="!show.ticketsAvailable" (click)="onTicketsClicked()">Tickets</span>
+    <span class="show-ticket-icon" [class.tickets-not-available]="!show.ticketsAvailable" (click)="onTicketsClicked()"><fa name="ticket"></fa></span>
+  </span>
+  <span class="col-2 button-container">
+    <span class="show-rsvp" (click)="onRsvpClicked()">RSVP</span>
+  </span>
+</div>

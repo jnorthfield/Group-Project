@@ -1,0 +1,41 @@
+.container.content {
+	height: 100%;
+	position: relative;
+}
+
+.content h4 {
+	text-align: center;
+    font-size: calc(12px + 2.5vw);
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 1em;
+}
+
+hr {
+	margin-bottom: 1em;
+}
+
+.content div  {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.snippet p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+	height: 200px;
+	overflow: hidden;
+    color: #00100B;
+}
+
+.snippet a {
+	font-family: 'Open Sans', sans-serif;
+	padding: .5em 1.5em;
+	border: none;
+	border-radius: 25px;
+	width: 10em;
+	background-color: yellow;
+	font-weight: 600;
+	color: #E2E2E2;
+	background-color: #957186;
+}

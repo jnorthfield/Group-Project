@@ -1,0 +1,38 @@
+.title-container {
+    margin: 35px 0px;
+}
+
+.music-therapy-page-header {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: calc(12px + 2.5vw);
+}
+
+.music-therapy-page-sub-header {
+    font-size: calc(12px + 1.5vw);
+}
+
+.music-therapy-content {
+    font-family: 'Open Sans', sans-serif;
+    color: #00100B;
+}
+
+.music-therapy-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 575px) {
+    .music-therapy-content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
