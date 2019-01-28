@@ -2,6 +2,8 @@
 
 Nathan James is a responsive angular UI for indie performer Nathan James. It is for a group project for a masters course at BU.
 
+http://www.cs634-niroomand-02.designaspractice.com/#/home
+
 ### Installation
 
 1. Install a command line tool. For mac I like [iTerm2](https://www.iterm2.com/) and for Windows development I use [cmder](http://cmder.net/).
